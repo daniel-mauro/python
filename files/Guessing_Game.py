@@ -8,7 +8,6 @@
 # of the chosen number.
 #
 #
-#
 
 
 import random
