@@ -38,6 +38,7 @@ while again == 'y' or again == 'Y':
 
     target_number = random.randint(1, 1000)
 
+    # Validate input
     while True:
         try:    
             target_guess = int(input('Guess any number from 1 to 1000: '))
@@ -49,6 +50,7 @@ while again == 'y' or again == 'Y':
         guess_count += 1
         hint(target_number, target_guess)
         
+        # Validate input
         while True:
             try:
                 target_guess = int(input('Guess again: '))
@@ -58,7 +60,7 @@ while again == 'y' or again == 'Y':
 
 
     print('We have a winner!!!')
-    print('It took you ', guess_count,  ' tries')
+    print('It took you ', guess_count,  ' guesses')
     print('Would you like to play again? ')
     again = input('Y for yes: ')
     guess_count = 1
