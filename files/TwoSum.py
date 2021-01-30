@@ -1,3 +1,10 @@
+# Program to demonstrate the use of classes
+#  
+# To be added:
+#    -Input acceptance
+#    -Input validation
+#
+
 class Solution:
     def twoSum(nums, target):
         """
@@ -23,7 +30,7 @@ class Solution:
 def main():
     
     a = [1,2,3,4]
-    b = 6
+    b = 5
     
     answer = Solution.twoSum
     solved = answer(a, b)
