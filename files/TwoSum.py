@@ -1,5 +1,5 @@
 class Solution:
-    def twoSum(self, nums, target):
+    def twoSum(nums, target):
         """
         :type nums: List[int]
         :type target: int
@@ -19,3 +19,15 @@ class Solution:
                 j += 1
             i += 1
   
+    
+def main():
+    
+    a = [1,2,3,4]
+    b = 6
+    
+    answer = Solution.twoSum
+    solved = answer(nums=a, target=b)
+    print(solved)
+    
+main()
+      
