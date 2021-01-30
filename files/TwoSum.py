@@ -26,7 +26,7 @@ def main():
     b = 6
     
     answer = Solution.twoSum
-    solved = answer(nums=a, target=b)
+    solved = answer(a, b)
     print(solved)
     
 main()
