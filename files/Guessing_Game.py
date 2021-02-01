@@ -59,10 +59,10 @@ while again == 'y' or again == 'Y':
                 print("Invalid value, try again... ")
 
 
-    print('We have a winner!!!')
-    print('It took you ', guess_count,  ' guesses')
-    print('Would you like to play again? ')
-    again = input('Y for yes: ')
+    print("We have a winner!!!")
+    print("It took you ", guess_count,  " guesses")
+    print("Would you like to play again? ")
+    again = input("Y for yes: ")
     guess_count = 1
     target_guess = 0
 
