@@ -25,11 +25,12 @@ class Solution:
                     return sol
                 j += 1
             i += 1
-  
+
+        return [0, 0]
     
 def main():
     
-    a = [1,2,3,4]
+    a = [3,3,4]
     b = 5
     
     answer = Solution.twoSum
