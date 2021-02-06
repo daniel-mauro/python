@@ -9,6 +9,7 @@ def func(num):
     return answer
 
 def main():
+    print("This program flips the bits of a number")
     test = 255
     print("Your original number is: ", test)
     result = func(test)
